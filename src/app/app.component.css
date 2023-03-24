@@ -1,0 +1,93 @@
+
+header {
+    background: linear-gradient(to bottom right, rgb(255, 253, 125), rgb(151, 250, 184), rgb(253, 209, 158));
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 10px;
+    color: #301E67;
+    text-align: center;
+  }
+
+  
+  .container {
+    margin-top: 140px;
+    padding: 16px;
+    
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  .form-input {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #5B8FB9;
+    width: 55%;
+    border: 3px solid;
+    outline: none;
+    border-color: transparent transparent black transparent;
+    text-align: center;
+    color: white;
+  }
+  
+  ::placeholder {
+    color: white;
+    text-align: center;
+  }
+  
+  .form-btn {
+    padding: 10px;
+    width: 45%;
+    font-size: 1rem;
+    margin-top: 15px;
+    background-color: transparent;
+    border: #5B8FB9 3px solid;
+    font-weight: bold;
+  }
+  
+  .form-btn:hover {
+    background-color: #62A388;
+  }
+  
+  .short-url-div {
+    color: #301E67;
+  }
+  .short-url-div a {
+    color: #310b1a;
+    font-weight: bold;
+  }
+  .short-url-div a:hover {
+    color: blue;
+  }
+  
+  .short-url-btn-div button {
+    padding: 10px;
+    width: auto;
+    font-size: 1rem;
+    margin-top: 15px;
+    background-color: transparent;
+    border: #5B8FB9 3px solid;
+    font-weight: bold;
+  }
+  
+  .short-url-btn-div button:hover {
+    background-color: #62A388;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .form-input {
+      width: 92%;
+      background-color: transparent;
+    }
+  
+    .form-btn {
+      width: 100%;
+    }
+  
+    .short-url-btn-div button {
+      width: 100%;
+    }
+  }
+  
